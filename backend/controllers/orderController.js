@@ -6,7 +6,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // placing user order for frontend
 const placeOrder = async (req, res) => {
-  const frontend_url = "https://zapidfooddel-jfy5.onrender.com";
+  const frontend_url = "https://zapid-food-del.onrender.com";
 
   try {
     const newOrder = new orderModel({
