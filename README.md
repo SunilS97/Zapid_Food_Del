@@ -46,16 +46,19 @@ JWT_SECRET=your_jwt_secret
 **Front end**
 
 cd frontend
+
 npm install
 
 **Backend**
 
 cd backend
+
 npm install
 
 **Admin**
 
 cd admin
+
 npm install
 
 ### Running the Application
@@ -63,6 +66,7 @@ npm install
 **Start the Frontend**
 
 cd frontend
+
 npm run dev
 
 This will start the frontend on http://localhost:3000.
@@ -70,6 +74,7 @@ This will start the frontend on http://localhost:3000.
 **Start the Backend**
 
 cd backend
+
 npm run server
 
 This will start the backend server on http://localhost:5000.
@@ -77,6 +82,7 @@ This will start the backend server on http://localhost:5000.
 **Start the Admin Panel**
 
 cd admin
+
 npm run dev
 
 This will start the admin panel on http://localhost:3001.
