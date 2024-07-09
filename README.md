@@ -29,6 +29,7 @@ Ensure you have the following installed:
 ### Clone the Repository
 
 git clone https://github.com/SunilS97/zapid-food-delivery.git
+
 cd zapid-food-delivery
 
 ### Setup Environment Variables
@@ -48,45 +49,59 @@ cd frontend
 npm install
 
 **Backend**
+
 cd backend
 npm install
+
 **Admin**
+
 cd admin
 npm install
 
 ### Running the Application
+
 **Start the Frontend**
 
 cd frontend
 npm run dev
+
 This will start the frontend on http://localhost:3000.
 
 **Start the Backend**
 
 cd backend
 npm run server
+
 This will start the backend server on http://localhost:5000.
 
 **Start the Admin Panel**
 
 cd admin
 npm run dev
+
 This will start the admin panel on http://localhost:3001.
 
 **Scripts**
+
 **Frontend**
+
 npm run dev: Start the development server
 npm run build: Build the application for production
 npm run lint: Lint the codebase
 npm run preview: Preview the production build
+
 **Backend**
+
 npm run server: Start the backend server with nodemon
+
 **Admin Panel**
+
 npm run dev: Start the development server
 npm run build: Build the application for production
 npm run lint: Lint the codebase
 npm run preview: Preview the production build
 
 ### License
+
 This project is licensed under the ISC License
 
