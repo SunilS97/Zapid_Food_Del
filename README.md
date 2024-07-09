@@ -35,7 +35,9 @@ cd zapid-food-delivery
 Create a .env file in the root directory of the frontend, backend, and admin folders with the following variables:
 
 MONGO_DB_URL=your_mongodb_url
+
 STRIPE_API_KEY=your_stripe_api_key
+
 JWT_SECRET=your_jwt_secret
 
 ### Install Dependencies
